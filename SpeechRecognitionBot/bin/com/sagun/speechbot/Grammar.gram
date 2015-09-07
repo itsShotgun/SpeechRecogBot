@@ -1,0 +1,19 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Speech Recognition Bot
+ */
+
+grammar hello;
+public <greet> = (hey )  (computer);
+public <about> = (how are| what's) (up| you );
+public <intro> = (do you) (have a name);
+public <age> = (how old | what) (are you | is your age);
+public <command> = ( open | close ) (terminal| music | browser | V L C |camera |photo shop | dictionary| chrome | system preferences);
+public <system> = (what time) (is it);
+public <urls> = ( open)  (goo gall |face book | you tube | tweet err );
+public<humor> =(tell me | Make me) (another one | a joke | a coffee);
+public<humors>=(sue dough) (make me) (a coffee);
+public<foxJoke>=(What does ) ( the ) (fox say);
+public<brithumor>=(nice)(one);
+public<end>=(stop | goodbye)(recognition | computer);
